@@ -1,5 +1,3 @@
-#NEED TO MAKE IT A CLASS!
-
 This is an application of the [Ant Colony Optimisation algorithm](https://en.wikipedia.org/wiki/Ant_colony_optimization) that mimics the behavior of ants while searching for food.
 We applied it to the [Boolean Satisfiability problem](https://en.wikipedia.org/wiki/Boolean_satisfiability_problem) (more precisely [max-sat](https://en.wikipedia.org/wiki/Maximum_satisfiability_problem)).
 
@@ -53,4 +51,13 @@ antColony(clauses,nbL,nbL/2,0.2,500)
 
 **check_all** *(clause,state)*: 	returns the number of not satisfied clauses left by *state* instentiation.
 - state:	An instentation of the literals (a solution)
+
+***
+
+###License:
+This is published under GNU GPL Lisence.
+For more informations about the terms: https://www.gnu.org/licenses/gpl.html
+
+![Image Alt](https://www.gnu.org/graphics/gplv3-127x51.png)
+
 
