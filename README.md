@@ -1,7 +1,8 @@
 This is an application of the [Ant Colony Optimisation algorithm](https://en.wikipedia.org/wiki/Ant_colony_optimization) that mimics the behavior of ants while searching for food.
 We applied it to the [Boolean Satisfiability problem](https://en.wikipedia.org/wiki/Boolean_satisfiability_problem) (more precisely [max-sat](https://en.wikipedia.org/wiki/Maximum_satisfiability_problem)).
 
-The main steps behind genetic algorithmes are:
+The main steps behind ACO algorithmes are:
+
 1. Generating an ant colony
 2. Each ant construct a path toward the solution (in other words)
 3. When they all have explored their paths, they return they store their solution in a list (solutions)
